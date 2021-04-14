@@ -128,13 +128,14 @@ int CRedLightObject::GetTiming ( unsigned int n_step_number )
 {
 
  printf("Light %s\n",GetName());
-	/* Create sequence */
-	if ( !(n_step_number % 110) )
-	{
-		/* toggle light */
-		m_nActivation ^= 0x1;
-	}
+	// MODIFIED: Fixed red light
+	// /* Create sequence */
+	// if ( !(n_step_number % 110) )
+	// {
+	// 	/* toggle light */
+	// 	m_nActivation ^= 0x1;
+	// }
 
-	/* default return true */
+	// /* default return true */
 	return m_nActivation;
 }
