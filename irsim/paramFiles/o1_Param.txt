@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% EXTRA %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+NUMBER OF ROBOTS								= 1
+ROBOT 1: X POSITION (meters)		= -2.5
+ROBOT 1: Y POSITION (meters)		= -2.5
+ROBOT 1: ORIENTATION (radians) 	= 0.0
+WRITE TO FILE (0 No, 1 YES )		= 1
+RUN TIME												= 10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% ENVIRONMENT %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+NUMBER OF LIGHT OBJECTS (High prioroty deliveries) = 5
+LIGHT 1 X POSITION (meters) 				      = -2.0
+LIGHT 1 Y POSITION (meters)					      = -1.5
+LIGHT 2 X POSITION (meters) 				      = -1.0
+LIGHT 2 Y POSITION (meters)					      = -1.5
+LIGHT 3 X POSITION (meters) 				      = -1.5
+LIGHT 3 Y POSITION (meters)					      = 1.55
+LIGHT 4 X POSITION (meters) 				      = 1.25
+LIGHT 4 Y POSITION (meters)					      = 1.95
+LIGHT 5 X POSITION (meters) 				      = 2.5
+LIGHT 5 Y POSITION (meters)					      = 1.45
+NUMBER OF BLUE LIGHT OBJECTS 							= 1
+LIGHT 1 X POSITION (meters) 				      = -2.5
+LIGHT 1 Y POSITION (meters)					      = -2.5
+NUMBER OF RED LIGHT OBJECTS (Low prioroty deliveries)	= 5
+LIGHT 1 X POSITION (meters) 				      = -0.5
+LIGHT 1 Y POSITION (meters)					      = -2.5
+LIGHT 2 X POSITION (meters) 				      = -1.35
+LIGHT 2 Y POSITION (meters)					      = -1.5
+LIGHT 3 X POSITION (meters) 				      = -2.25
+LIGHT 3 Y POSITION (meters)					      = 2.5
+LIGHT 4 X POSITION (meters) 				      = 2
+LIGHT 4 Y POSITION (meters)					      = -0.5
+LIGHT 5 X POSITION (meters) 				      = 2.75
+LIGHT 5 Y POSITION (meters)					      = -2.75
+NUMBER OF GROUND AREA 										= 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% SENSORS %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+LIGHT SENSOR RANGE (meters)						= 0.4
+BLUE LIGHT SENSOR RANGE (meters)			= 10
+RED LIGHT SENSOR RANGE (meters)				= 0.4
+BATTERY SENSOR RANGE (meters)					= 0.5
+BATTERY CHARGE COEF 									= 0.01
+BATTERY DISCHARGE COEF								= 0.0001
+BLUE BATTERY SENSOR RANGE (meters)		= 0.5
+BLUE BATTERY CHARGE COEF 							= 0.01
+BLUE BATTERY DISCHARGE COEF						= 0.0001
+RED BATTERY SENSOR RANGE (meters)			= 0.5
+RED BATTERY CHARGE COEF 							= 0.01
+RED BATTERY DISCHARGE COEF						= 0.0001
+ODOMETRY ERROR                        = 0
